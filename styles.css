@@ -1,0 +1,169 @@
+body {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.container {
+    margin: 10px 0;
+}
+
+.navbar0 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    font-size: 10px;
+    font-family: 'Montserrat';
+}
+
+.space10 {
+    margin: 0 5px;
+}
+
+.space15 {
+    margin: 0 7.5px;
+}
+
+.nav0-div {
+    border-right: 1px solid rgb(235, 235, 235);
+}
+
+.navbar0 > span {
+    color: rgb(89, 89, 89);
+    font-weight: 500;
+}
+
+#logo-masthead {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 43px;
+    background-color: rgb(235, 235, 235);
+    /*Top Border not working*/
+    border-top: 1px, solid, rgb(235, 235, 235);
+    border-bottom: 2px solid rgb(26, 26, 26);
+}
+
+#logo {
+    margin-left: 16px;
+    width: 41px;
+    height: auto;
+}
+
+.nav1-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin-left: 16px;
+}
+
+.nav1-links > li {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin: 0 4px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav1-links > li > a:link {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+
+.nav1-links > li > a:hover {
+    color: grey;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 43px;
+    background-color: white;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.nav2-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav2-links > li {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin: 0 12px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav2-links > li > a:link {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+
+.nav2-links > div {
+    font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-right: 12px;
+    color: rgb(226, 27, 4);
+}
+
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col1 {
+    width: 40%;
+}
+
+.breaking-news {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    padding: 20px 0;
+}
+
+.grid-items {
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.col2 {
+    width: 20%;
+}
+
+.col3 {
+    width: 40%;
+}
